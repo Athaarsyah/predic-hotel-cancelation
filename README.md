@@ -66,7 +66,7 @@ Aplikasi berada di [app.py](app.py). Aplikasi menerima lead time, harga rata-rat
 ├── notebook.ipynb          # EDA, feature engineering, training, dan evaluasi
 ├── HotelData.xlsx          # Dataset
 ├── gb_booking_model.pkl    # Model Gradient Boosting yang sudah dilatih
-├── data.txt                # File data tambahan, saat ini kosong
+├── data.txt                # File data tambahan
 └── README.md               # Dokumentasi project
 ```
 
