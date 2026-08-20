@@ -58,26 +58,6 @@ Gradient Boosting dipilih karena menghasilkan akurasi testing tertinggi, sekitar
 
 Aplikasi berada di [app.py](app.py). Aplikasi menerima lead time, harga rata-rata kamar, jumlah permintaan khusus, jumlah tamu, total malam menginap, dan status tamu berulang. Hasilnya berupa prediksi `Canceled` atau `Not Canceled` beserta probabilitasnya.
 
-## Instalasi
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install streamlit joblib numpy pandas seaborn matplotlib scikit-learn xgboost
-```
-
-Di VS Code, pilih `.venv\Scripts\python.exe` sebagai Python interpreter workspace.
-
-## Menjalankan Aplikasi
-
-Dari folder project, jalankan:
-
-```powershell
-.\.venv\Scripts\python.exe -m streamlit run app.py
-```
-
-Buka `http://localhost:8501` di browser.
-
 ## Struktur Project
 
 ```text
